@@ -1,0 +1,33 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DonkeyKong_SIS457-3912.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\DonkeyKong_SIS457Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Barril.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\DonkeyKong_SIS457.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\DonkeyKong_SIS457Character.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\DonkeyKong_SIS457GameMode.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\IStrategy.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Mono.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Plataforma.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\StrategyFire.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\StrategyInmunity.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\StrategyRun.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Teleporter.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Barril.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\DonkeyKong_SIS457.init.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\DonkeyKong_SIS457Character.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\DonkeyKong_SIS457GameMode.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\IStrategy.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Mono.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Plataforma.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\StrategyFire.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\StrategyInmunity.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\StrategyRun.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Teleporter.gen.cpp.obj"
+"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Default.rc2.res"
+/OUT:"C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\UE4Editor-DonkeyKong_SIS457-3912.lib"

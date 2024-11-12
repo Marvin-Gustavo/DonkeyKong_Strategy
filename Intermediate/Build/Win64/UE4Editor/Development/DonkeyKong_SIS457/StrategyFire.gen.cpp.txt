@@ -1,0 +1,7 @@
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Development\DonkeyKong_SIS457\Definitions.DonkeyKong_SIS457.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Source\DonkeyKong_SIS457/StrategyFire.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Source\DonkeyKong_SIS457\IStrategy.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\IStrategy.generated.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\StrategyFire.generated.h
