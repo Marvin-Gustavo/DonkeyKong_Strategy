@@ -28,6 +28,6 @@ void AStrategyFire::Tick(float DeltaTime)
 void AStrategyFire::CambiarHabilidad()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Magenta,
-		FString::Printf(TEXT("Habilidad: Disparo Critico")));
+		FString::Printf(TEXT("Habilidad: Doble Salto")));
 }
 

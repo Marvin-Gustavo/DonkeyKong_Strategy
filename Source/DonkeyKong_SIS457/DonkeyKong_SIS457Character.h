@@ -52,6 +52,10 @@ private:
 	class AStrategyFire* fire;
 	class AStrategyInmunity* inmunity;
 
+	FTimerHandle SpeedTimerHandle;
+	FTimerHandle JumpTimerHandle;
+	FTimerHandle InvisibilityTimerHandle;
+
 public:
 	void Habilidad1();
 	void Habilidad2();
@@ -59,4 +63,7 @@ public:
 
 public:
 	void EstablecerEstrategia(AActor* _strategys);
+	void ResetSpeed();
+	void ResetJumpHeight();
+	void ResetVisibility();
 };

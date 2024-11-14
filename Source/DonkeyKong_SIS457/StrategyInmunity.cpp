@@ -28,6 +28,6 @@ void AStrategyInmunity::Tick(float DeltaTime)
 void AStrategyInmunity::CambiarHabilidad()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green,
-		FString::Printf(TEXT("Habilidad: Imparable")));
+		FString::Printf(TEXT("Habilidad: Invicible")));
 }
 

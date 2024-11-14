@@ -60,16 +60,30 @@ void ADonkeyKong_SIS457Character::BeginPlay()
 void ADonkeyKong_SIS457Character::Habilidad1()
 {
 	EstablecerEstrategia(run);
+	// Increase character speed by 75%
+	GetCharacterMovement()->MaxWalkSpeed *= 1.75f;
+
+	// Set a timer to reset the speed after 5 seconds
+	GetWorldTimerManager().SetTimer(SpeedTimerHandle, this, &ADonkeyKong_SIS457Character::ResetSpeed, 5.0f, false);
+
 }
 
 void ADonkeyKong_SIS457Character::Habilidad2()
 {
 	EstablecerEstrategia(fire);
+	// Double jump height
+	GetCharacterMovement()->JumpZVelocity *= 2.0f;
+	// Set a timer to reset the jump height after 5 seconds 
+	GetWorldTimerManager().SetTimer(JumpTimerHandle, this, &ADonkeyKong_SIS457Character::ResetJumpHeight, 5.0f, false);
 }
 
 void ADonkeyKong_SIS457Character::Habilidad3()
 {
 	EstablecerEstrategia(inmunity);
+	// Make character invisible 
+	GetMesh()->SetVisibility(false);
+	// Set a timer to reset the visibility after 2 seconds 
+	GetWorldTimerManager().SetTimer(InvisibilityTimerHandle, this, &ADonkeyKong_SIS457Character::ResetVisibility, 2.0f, false);
 }
 
 void ADonkeyKong_SIS457Character::EstablecerEstrategia(AActor* _strategys)
@@ -83,6 +97,25 @@ void ADonkeyKong_SIS457Character::EstablecerEstrategia(AActor* _strategys)
 			FString::Printf(TEXT("No hay una habilidad establecida")));
 	}
 }
+
+void ADonkeyKong_SIS457Character::ResetSpeed()
+{
+	// Reset character speed to original
+	GetCharacterMovement()->MaxWalkSpeed /= 1.75f;
+}
+
+void ADonkeyKong_SIS457Character::ResetJumpHeight()
+{
+	// Reset jump height to original 
+	GetCharacterMovement()->JumpZVelocity /= 2.0f;
+}
+
+void ADonkeyKong_SIS457Character::ResetVisibility()
+{
+	// Reset visibility to original
+	GetMesh()->SetVisibility(true);
+}
+
 
 //////////////////////////////////////////////////////////////////////////
 // Input
