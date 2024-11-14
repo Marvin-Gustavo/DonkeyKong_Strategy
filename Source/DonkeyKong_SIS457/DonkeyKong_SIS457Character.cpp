@@ -86,6 +86,16 @@ void ADonkeyKong_SIS457Character::Habilidad3()
 	GetWorldTimerManager().SetTimer(InvisibilityTimerHandle, this, &ADonkeyKong_SIS457Character::ResetVisibility, 2.0f, false);
 }
 
+void ADonkeyKong_SIS457Character::OnTimerReachedZero()
+{
+	SetActorLocation(PositionObjetivo);
+}
+
+void ADonkeyKong_SIS457Character::SetPositionObjetivo(FVector NuevaPosicion)
+{
+	PositionObjetivo = NuevaPosicion;
+}
+
 void ADonkeyKong_SIS457Character::EstablecerEstrategia(AActor* _strategys)
 {
 	habilidades = Cast<IIStrategy>(_strategys);

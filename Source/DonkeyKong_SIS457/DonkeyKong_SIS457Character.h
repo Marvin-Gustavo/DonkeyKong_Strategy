@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "ITimerObserver.h"
 #include "DonkeyKong_SIS457Character.generated.h"
 
 UCLASS(config=Game)
-class ADonkeyKong_SIS457Character : public ACharacter
+class ADonkeyKong_SIS457Character : public ACharacter, public IITimerObserver
 {
 	GENERATED_BODY()
 
@@ -60,10 +61,15 @@ public:
 	void Habilidad1();
 	void Habilidad2();
 	void Habilidad3();
+	void OnTimerReachedZero();   // Método para recibir notificación desde TimerManager
+
+	void SetPositionObjetivo(FVector NuevaPosicion); // Método para establecer la posición objetivo
 
 public:
 	void EstablecerEstrategia(AActor* _strategys);
 	void ResetSpeed();
 	void ResetJumpHeight();
 	void ResetVisibility();
+private:
+	FVector PositionObjetivo;   // Posición objetivo para el personaje
 };

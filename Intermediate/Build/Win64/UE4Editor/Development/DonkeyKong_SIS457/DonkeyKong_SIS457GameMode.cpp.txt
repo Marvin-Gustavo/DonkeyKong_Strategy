@@ -12,8 +12,28 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Source\DonkeyKong_SIS457\ITimerObserver.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\ITimerObserver.generated.h
 C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\DonkeyKong_SIS457Character.generated.h
 C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Source\DonkeyKong_SIS457\Plataforma.h
 C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\Plataforma.generated.h
 C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Source\DonkeyKong_SIS457\Teleporter.h
 C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\Teleporter.generated.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Source\DonkeyKong_SIS457\TimerManagerR.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\TimerManagerR.generated.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Source\DonkeyKong_SIS457\TimerHUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\Usuario\OneDrive\Documentos\Unreal Projects\DonkeyKong_SIS457-master\Intermediate\Build\Win64\UE4Editor\Inc\DonkeyKong_SIS457\TimerHUD.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

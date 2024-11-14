@@ -7,6 +7,9 @@
 #include "Teleporter.h"
 #include "Engine/Engine.h"
 #include "Engine/World.h"
+#include "TimerManagerR.h"
+#include "TimerHUD.h"
+#include "Kismet/GameplayStatics.h"
 
 ADonkeyKong_SIS457GameMode::ADonkeyKong_SIS457GameMode()
 {
@@ -16,12 +19,27 @@ ADonkeyKong_SIS457GameMode::ADonkeyKong_SIS457GameMode()
     {
         DefaultPawnClass = PlayerPawnBPClass.Class;
     }
+    HUDClass = ATimerHUD::StaticClass();
 }
 
 void ADonkeyKong_SIS457GameMode::BeginPlay()
 {
     Super::BeginPlay();
 
+    GetWorld()->SpawnActor<ATimerManagerR>();
+    // Instanciar el TimerManager
+    ATimerManagerR* Timer = GetWorld()->SpawnActor<ATimerManagerR>();
+
+    // Obtener el personaje y registrarlo como observador
+    ADonkeyKong_SIS457Character* Character = Cast<ADonkeyKong_SIS457Character>(UGameplayStatics::GetPlayerCharacter(this, 0));
+    if (Character && Timer)
+    {
+        // Establecer la posición objetivo para el personaje (por ejemplo, a (0, 0, 0))
+        Character->SetPositionObjetivo(FVector(1208.0f, -517.0f, 205.0f));
+
+        // Registrar el personaje como observador
+        Timer->SetObservador(Character);
+    }
 
     GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Blue, TEXT("Creando plataformas"));
 
